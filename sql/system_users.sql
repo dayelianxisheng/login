@@ -48,7 +48,7 @@ CREATE TABLE `system_users`  (
 -- ----------------------------
 -- Records of system_users
 -- ----------------------------
-INSERT INTO `system_users` VALUES (1, 'admin', '123456', '系统管理员', '超级管理员账号', 103, '[1,2]', 'admin@company.com', '13800138001', 1, 'https://example.com/avatar/admin.jpg', 0, '127.0.0.1', '2024-02-25 10:00:00', 'system', '2024-02-25 10:00:00', 'admin', '2025-02-25 20:14:09', b'1', 1);
+
 INSERT INTO `system_users` VALUES (3, 'test', '123456', '测试账号', '测试专用账号', 104, '[2]', 'test@company.com', '13800138002', 2, 'https://example.com/avatar/test.jpg', 0, '127.0.0.1', '2024-02-25 11:00:00', 'admin', '2024-02-25 11:00:00', 'test', '2025-02-25 20:14:01', b'1', 1);
 INSERT INTO `system_users` VALUES (5, 'qc', '$2a$10$1PKp1wk0dVBokYxkD44pLuFZQ/iBTpBPPmSlBi0D4POVdH8jq8fvS', '质检专员', '质量控制人员', 105, '[3]', 'qc@company.com', '13800138003', 1, 'https://example.com/avatar/qc.jpg', 0, '127.0.0.1', '2024-02-25 12:00:00', 'admin', '2024-02-25 12:00:00', 'qc', '2024-02-25 12:00:00', b'0', 1);
 INSERT INTO `system_users` VALUES (6, 'qcqc', '$2a$10$hX9XKyROX0kWECPLdtuqu.9zn1yJyDO59bEQocpLedXp725C8xbOy', '质检主管', '质量控制主管', 105, '[3,4]', 'qcqc@company.com', '13800138004', 1, 'https://example.com/avatar/qcqc.jpg', 0, '127.0.0.1', '2024-02-25 13:00:00', 'admin', '2024-02-25 13:00:00', 'qcqc', '2024-02-25 13:00:00', b'0', 1);
